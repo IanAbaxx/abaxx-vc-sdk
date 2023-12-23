@@ -14,11 +14,11 @@ func TestCachingLoader(t *testing.T) {
 		httpmock.Activate()
 		defer httpmock.DeactivateAndReset()
 
-		nameSchemaURI := "https://tbd.test/name-schema.json"
+		nameSchemaURI := "https://abaxx.id/name-schema.json"
 		httpmock.RegisterResponder("GET", nameSchemaURI,
 			httpmock.NewStringResponder(200, getNameSchema()))
 
-		emailSchemaURI := "https://tbd.test/email-schema.json"
+		emailSchemaURI := "https://abaxx.id/email-schema.json"
 		httpmock.RegisterResponder("GET", emailSchemaURI,
 			httpmock.NewStringResponder(200, getEmailSchema()))
 
@@ -27,7 +27,7 @@ func TestCachingLoader(t *testing.T) {
 		assert.NoError(t, err)
 		assert.NotEmpty(t, schema)
 
-		jsonInterface, err := util.ToJSONInterface(`{"firstName": "Sat", "lastName": "Toshi", "email": {"emailAddress": "st@tbd.com"}}`)
+		jsonInterface, err := util.ToJSONInterface(`{"firstName": "Sat", "lastName": "Toshi", "email": {"emailAddress": "dev@abaxx.id"}}`)
 		assert.NoError(t, err)
 		err = schema.Validate(jsonInterface)
 		assert.NoError(t, err)
@@ -37,8 +37,8 @@ func TestCachingLoader(t *testing.T) {
 	})
 
 	t.Run("test load from remote resource with caching", func(tt *testing.T) {
-		nameSchemaURI := "https://tbd.test/name-schema.json"
-		emailSchemaURI := "https://tbd.test/email-schema.json"
+		nameSchemaURI := "https://abaxx.id/name-schema.json"
+		emailSchemaURI := "https://abaxx.id/email-schema.json"
 
 		schemaCache := map[string]string{
 			nameSchemaURI:  getNameSchema(),
@@ -54,7 +54,7 @@ func TestCachingLoader(t *testing.T) {
 		assert.NoError(tt, err)
 		assert.NotEmpty(tt, schema)
 
-		jsonInterface, err := util.ToJSONInterface(`{"firstName": "Sat", "lastName": "Toshi", "email": {"emailAddress": "st@tbd.com"}}`)
+		jsonInterface, err := util.ToJSONInterface(`{"firstName": "Sat", "lastName": "Toshi", "email": {"emailAddress": "dev@abaxx.id"}}`)
 		assert.NoError(tt, err)
 		err = schema.Validate(jsonInterface)
 		assert.NoError(tt, err)
@@ -63,7 +63,7 @@ func TestCachingLoader(t *testing.T) {
 		assert.NoError(tt, err)
 		assert.NotEmpty(tt, schema)
 
-		jsonInterface, err = util.ToJSONInterface(`{"emailAddress": "st@tbd.com"}`)
+		jsonInterface, err = util.ToJSONInterface(`{"emailAddress": "dev@abaxx.id"}`)
 		assert.NoError(tt, err)
 		err = schema.Validate(jsonInterface)
 		assert.NoError(tt, err)
@@ -87,7 +87,7 @@ func TestCachingLoaderAllLocal(t *testing.T) {
 
 func getNameSchema() string {
 	return `{
-  "$id": "https://tbd.test/name-schema.json",
+  "$id": "https://abaxx.id/name-schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Name",
   "description": "A human name.",
@@ -101,7 +101,7 @@ func getNameSchema() string {
       "type": "string"
     },
 	"email": {
-	  "$ref": "https://tbd.test/email-schema.json"    
+	  "$ref": "https://abaxx.id/email-schema.json"    
 	}
   }
 }`
@@ -109,7 +109,7 @@ func getNameSchema() string {
 
 func getEmailSchema() string {
 	return `{
-  "$id": "https://tbd.test/email-schema.json",
+  "$id": "https://abaxx.id/email-schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Email",
   "description": "An email.",

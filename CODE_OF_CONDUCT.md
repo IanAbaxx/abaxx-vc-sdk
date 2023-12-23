@@ -66,8 +66,8 @@ online or offline event, or any space where the project is listed as part of you
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the ID++ Open Source Governance Committee (GC) at
-`tbd-open-source-governance@@squareup.com`.
+reported to the ID++ Open Source Governance Committee (GC)
+
 All complaints will be reviewed and investigated promptly and fairly.
 
 The GC is obligated to respect the privacy and security of the

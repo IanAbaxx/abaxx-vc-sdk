@@ -5,7 +5,7 @@
 // to the ION service.
 // For example:
 // // Create a new ION resolution
-// resolution, err := ion.NewResolver(http.DefaultClient, "https://ion.tbd.network")
+// resolution, err := ion.NewResolver(http.DefaultClient, "https://ion.abaxx.network")
 //
 //	if err != nil {
 //		panic(err)

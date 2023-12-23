@@ -60,14 +60,14 @@ type Resolver struct {
 var _ resolution.Resolver = (*Resolver)(nil)
 
 // NewIONResolver creates a new resolution for the ION DID method with a common base URL
-// The base URL is the URL of the ION node, for example: https://ion.tbd.network
+// The base URL is the URL of the ION node, for example: https://ion.abaxx.network
 // The resolution will append the DID to the base URL to resolve the DID such as
 //
-//	https://ion.tbd.network/identifiers/did:ion:1234
+//	https://ion.abaxx.network/identifiers/did:ion:1234
 //
 // and similarly for submitting anchor operations to the ION node...
 //
-//	https://ion.tbd.network/operations
+//	https://ion.abaxx.network/operations
 func NewIONResolver(client *http.Client, baseURL string) (*Resolver, error) {
 	if client == nil {
 		return nil, errors.New("client cannot be nil")

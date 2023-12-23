@@ -68,7 +68,7 @@ The current GC members are:
 * Andrew Lee Rubinger, Head of Open Source, ID++
 * Max Sills, Counsel for Intellectual Property, Block
 
-Members are not to be contacted individually. The GC may be reached through `tbd-open-source-governance@squareup.com`
+Members are not to be contacted individually.
 and is an available resource in mediation or for sensitive cases beyond the scope of project maintainers. It operates as
 a "Self-appointing council or board" as defined by Red
 Hat: [Open Source Governance Models](https://www.redhat.com/en/blog/understanding-open-source-governance-models).

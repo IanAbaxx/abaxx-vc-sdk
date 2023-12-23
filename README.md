@@ -56,7 +56,7 @@ change as the library evolves.
     - [VC Proof Formats Test Suite, VC Data Model with JSON Web Signatures](https://identity.foundation/JWS-Test-Suite/)
       _Unofficial Draft 09 March 2022_
       This implementation's compliance with the JWS Test
-      Suite [can be found here](https://identity.foundation/JWS-Test-Suite/#tbd).
+      Suite [can be found here](https://identity.foundation/JWS-Test-Suite).
     - Supports both JWT and Linked Data proof formats with [JOSE compliance](https://jose.readthedocs.io/en/latest/).
 
 ## Key Types & Signature Algorithms

@@ -160,9 +160,9 @@ func TestResolver(t *testing.T) {
 		ionDID, createOp, err := NewIONDID(Document{
 			Services: []did.Service{
 				{
-					ID:              "tbd-website",
+					ID:              "abaxx.id",
 					Type:            "ID++",
-					ServiceEndpoint: "https://tbd.website",
+					ServiceEndpoint: "https://dwn0.abaxx.id",
 				},
 			},
 		})
@@ -189,9 +189,9 @@ func TestRequests(t *testing.T) {
 		ionDID, createOp, err := NewIONDID(Document{
 			Services: []did.Service{
 				{
-					ID:              "tbd-service-endpoint",
-					Type:            "TBDServiceEndpoint",
-					ServiceEndpoint: "https://tbd.website",
+					ID:              "abaxx-id",
+					Type:            "ServiceEndpoint",
+					ServiceEndpoint: "https://dwn0.abaxx.id",
 				},
 			},
 		})
