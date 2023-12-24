@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
 	"github.com/lestrrat-go/jwx/v2/jws"
 	"github.com/lestrrat-go/jwx/v2/jwt"
 	"github.com/stretchr/testify/assert"

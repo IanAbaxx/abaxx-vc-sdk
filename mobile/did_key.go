@@ -1,9 +1,9 @@
 package mobile
 
 import (
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/did/key"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/key"
 	"github.com/goccy/go-json"
 	"github.com/sirupsen/logrus"
 )

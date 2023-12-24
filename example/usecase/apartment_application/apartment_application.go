@@ -15,15 +15,15 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/d-protocol/vc-sdk/credential"
-	"github.com/d-protocol/vc-sdk/credential/exchange"
-	"github.com/d-protocol/vc-sdk/credential/integrity"
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/did/key"
-	"github.com/d-protocol/vc-sdk/did/resolution"
-	"github.com/d-protocol/vc-sdk/example"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/exchange"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/integrity"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/key"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/resolution"
+	"github.com/abaxxtech/abaxx-vc-sdk/example"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 func main() {

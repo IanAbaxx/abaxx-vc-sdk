@@ -3,7 +3,7 @@ package jwx
 import (
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
 	"github.com/lestrrat-go/jwx/v2/jwt"
 	"github.com/stretchr/testify/assert"
 )

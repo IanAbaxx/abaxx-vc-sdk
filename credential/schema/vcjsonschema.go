@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/d-protocol/vc-sdk/credential"
-	"github.com/d-protocol/vc-sdk/schema"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/schema"
 	"github.com/goccy/go-json"
 	"github.com/pkg/errors"
 )

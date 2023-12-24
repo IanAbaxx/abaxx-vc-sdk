@@ -24,10 +24,10 @@ import (
 	"github.com/multiformats/go-varint"
 	"github.com/pkg/errors"
 
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/did"
-	"github.com/d-protocol/vc-sdk/did/resolution"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/resolution"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 type (
@@ -133,7 +133,7 @@ func (DIDPeer) Delta(_ DIDPeer) (*PeerDelta, error) {
 	return nil, errors.Wrap(util.NotImplementedError, "peer:did delta")
 }
 
-// TODO: CRDT https://github.com/d-protocol/vc-sdk/issues/138
+// TODO: CRDT https://github.com/abaxxtech/abaxx-vc-sdk/issues/138
 // https://identity.foundation/peer-did-method-spec/#crdts
 
 // Generates the key by types

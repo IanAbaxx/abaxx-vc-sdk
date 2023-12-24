@@ -6,8 +6,8 @@ import (
 	"github.com/mr-tron/base58"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
 )
 
 func TestGetKeyFromVerificationInformation(t *testing.T) {

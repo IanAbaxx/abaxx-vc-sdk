@@ -8,7 +8,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/d-protocol/vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
 )
 
 func TestPresentationDefinitionBuilder(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
 )
 
 // Exercise all builder methods

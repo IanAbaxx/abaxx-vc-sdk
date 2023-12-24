@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/d-protocol/vc-sdk/credential"
-	"github.com/d-protocol/vc-sdk/did/ion"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/ion"
 	"github.com/goccy/go-json"
 
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/did/key"
-	"github.com/d-protocol/vc-sdk/did/resolution"
-	"github.com/d-protocol/vc-sdk/did/web"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/key"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/resolution"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/web"
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"

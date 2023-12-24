@@ -1,7 +1,7 @@
 package manifest
 
 import (
-	"github.com/d-protocol/vc-sdk/schema"
+	"github.com/abaxxtech/abaxx-vc-sdk/schema"
 	"github.com/goccy/go-json"
 	"github.com/pkg/errors"
 )

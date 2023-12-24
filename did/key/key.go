@@ -6,18 +6,18 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/d-protocol/vc-sdk/cryptosuite/jws2020"
-	"github.com/d-protocol/vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite/jws2020"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
 	"github.com/jorrizza/ed2curve25519"
 	"github.com/mr-tron/base58"
 	"github.com/multiformats/go-multibase"
 	"github.com/multiformats/go-multicodec"
 
-	"github.com/d-protocol/vc-sdk/cryptosuite"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite"
 
 	"github.com/pkg/errors"
 
-	"github.com/d-protocol/vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
 
 	"github.com/multiformats/go-varint"
 )

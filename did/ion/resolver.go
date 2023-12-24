@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/d-protocol/vc-sdk/did"
-	"github.com/d-protocol/vc-sdk/did/resolution"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/resolution"
 	"github.com/goccy/go-json"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

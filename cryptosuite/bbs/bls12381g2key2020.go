@@ -3,9 +3,9 @@ package bbs
 import (
 	"fmt"
 
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/cryptosuite"
-	"github.com/d-protocol/vc-sdk/cryptosuite/jws2020"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite/jws2020"
 	bbs "github.com/hyperledger/aries-framework-go/pkg/crypto/primitive/bbs12381g2pub"
 	"github.com/mr-tron/base58"
 )

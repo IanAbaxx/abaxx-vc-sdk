@@ -1,7 +1,7 @@
 package peer
 
 import (
-	"github.com/d-protocol/vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
 )
 
 // IsSupportedDIDPeerType returns if a given key type is supported for did:peer

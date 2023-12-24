@@ -3,8 +3,8 @@ package issuance
 import (
 	"strings"
 
-	"github.com/d-protocol/vc-sdk/did"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 	"github.com/goccy/go-json"
 	"github.com/pkg/errors"
 	"golang.org/x/text/language"

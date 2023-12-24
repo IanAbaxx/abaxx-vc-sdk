@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/d-protocol/vc-sdk/credential/integrity"
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/integrity"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
 	"github.com/goccy/go-json"
 
-	"github.com/d-protocol/vc-sdk/credential"
-	"github.com/d-protocol/vc-sdk/example"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/example"
 	"github.com/sirupsen/logrus"
 )
 
@@ -41,7 +41,7 @@ func BuildExampleUniversityVC(signer jwx.Signer, universityDID, recipientDID str
 	}
 
 	// For more information on VC object, go to:
-	// https://github.com/d-protocol/vc-sdk/blob/main/credential/model.go
+	// https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/credential/model.go
 	knownCred := credential.VerifiableCredential{
 		Context:           knownContext,
 		ID:                knownID,

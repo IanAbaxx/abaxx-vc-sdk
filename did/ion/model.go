@@ -3,8 +3,8 @@ package ion
 import (
 	"fmt"
 
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
 	"github.com/goccy/go-json"
 	"github.com/pkg/errors"
 )

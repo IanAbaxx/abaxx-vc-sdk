@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/h2non/gock.v1"
 )

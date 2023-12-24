@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/cryptosuite"
-	"github.com/d-protocol/vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -1,8 +1,8 @@
 package peer
 
 import (
-	"github.com/d-protocol/vc-sdk/did"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 // Method1 Method 1: genesis doc
@@ -23,6 +23,6 @@ func (Method1) Method() did.Method {
 // the stored variant of the genesis version of the DID doc, and make this value the new DID's numeric basis.
 func (Method1) Generate() (*DIDPeer, error) {
 	// Create a Genesis Version
-	// TODO support method 1 https://github.com/d-protocol/vc-sdk/issues/137
+	// TODO support method 1 https://github.com/abaxxtech/abaxx-vc-sdk/issues/137
 	return nil, util.NotImplementedError
 }

@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/schema"
+	"github.com/abaxxtech/abaxx-vc-sdk/schema"
 )
 
 // TestMain is used to set up schema caching in order to load all schemas locally

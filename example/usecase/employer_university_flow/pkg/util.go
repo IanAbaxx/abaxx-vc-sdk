@@ -4,11 +4,11 @@ import (
 	gocrypto "crypto"
 	"fmt"
 
-	"github.com/d-protocol/vc-sdk/credential/exchange"
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/did"
-	"github.com/d-protocol/vc-sdk/example"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/exchange"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/example"
 	"github.com/goccy/go-json"
 )
 
@@ -35,7 +35,7 @@ func NewEntity(name string, didMethod did.Method) (*Entity, error) {
 // MakePresentationRequest Builds a presentation request (PR). A PR is sent by a holder to a verifier. It can be sent
 // over multiple mechanisms. For more information, please go to here:
 // https://identity.foundation/presentation-exchange/#presentation-request and for the source code with the sdk,
-// https://github.com/d-protocol/vc-sdk/blob/main/credential/exchange/request.go is appropriate to start off with.
+// https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/credential/exchange/request.go is appropriate to start off with.
 func MakePresentationRequest(key gocrypto.PrivateKey, keyID string, presentationData exchange.PresentationDefinition, requesterID, audienceID string) (pr []byte, signer *jwx.Signer, err error) {
 	example.WriteNote("Presentation Request (JWT) is created")
 
@@ -56,7 +56,7 @@ func MakePresentationRequest(key gocrypto.PrivateKey, keyID string, presentation
 }
 
 // BuildPresentationSubmission builds a submission using...
-// https://github.com/d-protocol/vc-sdk/blob/d279ca2779361091a70b8aa3c685a388067409a9/credential/exchange/submission.go#L126
+// https://github.com/abaxxtech/abaxx-vc-sdk/blob/d279ca2779361091a70b8aa3c685a388067409a9/credential/exchange/submission.go#L126
 func BuildPresentationSubmission(presentationRequestJWT string, verifier jwx.Verifier, signer jwx.Signer, vc string) ([]byte, error) {
 	presentationClaim := exchange.PresentationClaim{
 		Token:                         &vc,

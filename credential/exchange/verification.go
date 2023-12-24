@@ -5,18 +5,18 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/d-protocol/vc-sdk/credential/integrity"
-	"github.com/d-protocol/vc-sdk/credential/parsing"
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/did/resolution"
-	"github.com/d-protocol/vc-sdk/schema"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/integrity"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/parsing"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/resolution"
+	"github.com/abaxxtech/abaxx-vc-sdk/schema"
 
 	"github.com/goccy/go-json"
 	"github.com/oliveagle/jsonpath"
 	"github.com/pkg/errors"
 
-	"github.com/d-protocol/vc-sdk/credential"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 // VerifiedSubmissionData is the result of a successful verification of a presentation submission

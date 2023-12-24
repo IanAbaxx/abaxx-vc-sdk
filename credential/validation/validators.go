@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/d-protocol/vc-sdk/credential"
-	credschema "github.com/d-protocol/vc-sdk/credential/schema"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
+	credschema "github.com/abaxxtech/abaxx-vc-sdk/credential/schema"
 	"github.com/goccy/go-json"
 	"github.com/pkg/errors"
 )

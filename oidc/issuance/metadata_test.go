@@ -4,7 +4,7 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
 	"github.com/goccy/go-json"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

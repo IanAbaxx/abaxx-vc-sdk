@@ -3,8 +3,8 @@ package credential
 import (
 	"reflect"
 
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 // VerifiableCredential is the verifiable credential model outlined in the

@@ -3,7 +3,7 @@ package ion
 import (
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
 	"github.com/goccy/go-json"
 	"github.com/stretchr/testify/assert"
 )

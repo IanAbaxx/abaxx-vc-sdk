@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 	"github.com/goccy/go-json"
 	"github.com/pkg/errors"
 	"github.com/santhosh-tekuri/jsonschema/v5"

@@ -1,10 +1,10 @@
 # Contribution Guide
 
-This repo acts as a one-stop, opinionated toolkit for all things Self Sovereign Identity (SSI). Before contributing, we recommend that you review the [README](README.md), dig into some of the specifications it mentions, take a look at recent PRs, and issues. The SDK is intended to be used in any go project. Our [VC Service](github.com/d-protocol/vc-service) makes use of the SDK for much of its core functionality.
+This repo acts as a one-stop, opinionated toolkit for all things Self Sovereign Identity (SSI). Before contributing, we recommend that you review the [README](README.md), dig into some of the specifications it mentions, take a look at recent PRs, and issues. The SDK is intended to be used in any go project. Our [VC Service](github.com/abaxxtech/abaxx-vc-service) makes use of the SDK for much of its core functionality.
 
 When you're ready you may:
 * Propose ideas in our SSI [discord](https://discord.com/channels/937858703112155166/969272692891086868) channel
-* Raise an issue or feature request in our [issue tracker](https://github.com/d-protocol/vc-sdk/issues)
+* Raise an issue or feature request in our [issue tracker](https://github.com/abaxxtech/abaxx-vc-sdk/issues)
 * Help another contributor with one of their questions, or a code review
 
 
@@ -85,11 +85,11 @@ $> mage cbt
 ### Issues
 
 Anyone from the community is welcome (and encouraged!) to raise issues
-via [GitHub Issues](https://github.com/d-protocol/vc-sdk/issues).
+via [GitHub Issues](https://github.com/abaxxtech/abaxx-vc-sdk/issues).
 
 We label issues according to their functionality (e.g. `dids`, `sign-verify`, `credentials`, `bug`, `documentation`, `testing` and more). If you don't see an appropriate label for an issue feel free to request a new one. 
 
-We use [GitHub Projects](https://github.com/orgs/d-protocol/projects/17) to track our work.
+We use [GitHub Projects](https://github.com/orgs/abaxxtech/projects/17) to track our work.
 
 ### Discussions
 
@@ -100,7 +100,7 @@ We advocate an asynchronous, written debate model - so write up your thoughts an
 ### Continuous Integration
 
 Build and Test cycles are run on every commit to every branch
-using [GitHub Actions](https://github.com/d-protocol/vc-sdk/actions).
+using [GitHub Actions](https://github.com/abaxxtech/abaxx-vc-sdk/actions).
 
 ## Contribution
 

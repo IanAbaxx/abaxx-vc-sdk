@@ -6,8 +6,8 @@ import (
 
 	"github.com/goccy/go-json"
 
-	"github.com/d-protocol/vc-sdk/crypto"
-	. "github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	. "github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 var (

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/d-protocol/vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
 	"github.com/multiformats/go-multibase"
 
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/cryptosuite"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 const (

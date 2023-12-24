@@ -6,11 +6,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/d-protocol/vc-sdk/cryptosuite"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite"
 	"github.com/pkg/errors"
 
-	"github.com/d-protocol/vc-sdk/did"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 type (

@@ -1,7 +1,7 @@
 package jws2020
 
 import (
-	"github.com/d-protocol/vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
 )
 
 type TestCredential struct {

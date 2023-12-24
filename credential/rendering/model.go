@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 // EntityStyleDescriptor https://identity.foundation/wallet-rendering/#entity-styles

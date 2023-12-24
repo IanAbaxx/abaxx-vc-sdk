@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/did"
-	"github.com/d-protocol/vc-sdk/did/key"
-	"github.com/d-protocol/vc-sdk/did/peer"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/key"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/peer"
 )
 
 // SimpleWallet is a sample wallet

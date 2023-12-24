@@ -3,7 +3,7 @@ package mobile
 import (
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/did/key"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/key"
 	"github.com/goccy/go-json"
 	"github.com/stretchr/testify/assert"
 )

@@ -6,8 +6,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/d-protocol/vc-sdk/credential/exchange"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/exchange"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 const (

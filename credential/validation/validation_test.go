@@ -3,8 +3,8 @@ package validation
 import (
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/credential"
-	credschema "github.com/d-protocol/vc-sdk/credential/schema"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
+	credschema "github.com/abaxxtech/abaxx-vc-sdk/credential/schema"
 	"github.com/stretchr/testify/assert"
 )
 

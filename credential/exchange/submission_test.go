@@ -4,21 +4,21 @@ import (
 	"context"
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/credential/integrity"
-	"github.com/d-protocol/vc-sdk/cryptosuite/jws2020"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/integrity"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite/jws2020"
 	"github.com/goccy/go-json"
 	"github.com/oliveagle/jsonpath"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/did/key"
-	"github.com/d-protocol/vc-sdk/did/resolution"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/key"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/resolution"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 
-	"github.com/d-protocol/vc-sdk/credential"
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/cryptosuite"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite"
 )
 
 func TestBuildPresentationSubmission(t *testing.T) {
@@ -744,7 +744,7 @@ func getTestVerifiablePresentation() credential.VerifiablePresentation {
 				CredentialSubject: map[string]any{
 					"id":      "test-vp-vc-id",
 					"company": "ID++",
-					"github":  "https://github.com/d-protocol",
+					"github":  "https://github.com/abaxxtech",
 				},
 			},
 		},

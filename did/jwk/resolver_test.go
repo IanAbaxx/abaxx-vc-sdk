@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/d-protocol/vc-sdk/did/resolution"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/resolution"
 )
 
 func TestGenerateAndResolveDIDJWK(t *testing.T) {

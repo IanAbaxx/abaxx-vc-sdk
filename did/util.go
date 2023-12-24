@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/d-protocol/vc-sdk/cryptosuite/jws2020"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite/jws2020"
 	"github.com/lestrrat-go/jwx/v2/jwk"
 	"github.com/mr-tron/base58"
 	"github.com/multiformats/go-multibase"
@@ -14,9 +14,9 @@ import (
 	"github.com/multiformats/go-varint"
 	"github.com/pkg/errors"
 
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/cryptosuite"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite"
 )
 
 const (

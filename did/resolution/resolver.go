@@ -9,7 +9,7 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/pkg/errors"
 
-	"github.com/d-protocol/vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
 )
 
 // Option https://www.w3.org/TR/did-spec-registries/#did-resolution-options

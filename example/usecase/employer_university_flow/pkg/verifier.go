@@ -3,9 +3,9 @@ package pkg
 import (
 	"context"
 
-	"github.com/d-protocol/vc-sdk/credential/integrity"
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/did/resolution"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/integrity"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/resolution"
 
 	"github.com/pkg/errors"
 )

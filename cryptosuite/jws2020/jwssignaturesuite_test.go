@@ -3,10 +3,10 @@ package jws2020
 import (
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/cryptosuite"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 
 	"github.com/stretchr/testify/assert"
 )

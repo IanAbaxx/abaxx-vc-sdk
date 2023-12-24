@@ -14,15 +14,15 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/google/uuid"
 
-	"github.com/d-protocol/vc-sdk/credential"
-	"github.com/d-protocol/vc-sdk/credential/exchange"
-	"github.com/d-protocol/vc-sdk/credential/manifest"
-	"github.com/d-protocol/vc-sdk/credential/rendering"
-	"github.com/d-protocol/vc-sdk/credential/schema"
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/did/key"
-	"github.com/d-protocol/vc-sdk/example"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/exchange"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/manifest"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/rendering"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/schema"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/key"
+	"github.com/abaxxtech/abaxx-vc-sdk/example"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 // getDIDKey will return a DID key and its private key

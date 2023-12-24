@@ -1,9 +1,9 @@
-[![godoc vc-sdk](https://img.shields.io/badge/godoc-vc--sdk-blue)](https://pkg.go.dev/github.com/d-protocol/vc-sdk)
+[![godoc vc-sdk](https://img.shields.io/badge/godoc-vc--sdk-blue)](https://pkg.go.dev/github.com/abaxxtech/abaxx-vc-sdk)
 [![go version 1.21.4](https://img.shields.io/badge/go_version-1.21.4-brightgreen)](https://golang.org/)
-[![Go Report Card A+](https://goreportcard.com/badge/github.com/d-protocol/vc-sdk)](https://goreportcard.com/report/github.com/d-protocol/vc-sdk)
-[![license Apache 2](https://img.shields.io/badge/license-Apache%202-black)](https://github.com/d-protocol/vc-sdk/blob/main/LICENSE)
-[![issues](https://img.shields.io/github/issues/d-protocol/vc-sdk)](https://github.com/d-protocol/vc-sdk/issues)
-[![codecov](https://codecov.io/gh/d-protocol/vc-sdk/branch/main/graph/badge.svg?token=8SD0TO9Z9E)](https://codecov.io/gh/d-protocol/vc-sdk)
+[![Go Report Card A+](https://goreportcard.com/badge/github.com/abaxxtech/abaxx-vc-sdk)](https://goreportcard.com/report/github.com/abaxxtech/abaxx-vc-sdk)
+[![license Apache 2](https://img.shields.io/badge/license-Apache%202-black)](https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/LICENSE)
+[![issues](https://img.shields.io/github/issues/abaxxtech/abaxx-vc-sdk)](https://github.com/abaxxtech/abaxx-vc-sdk/issues)
+[![codecov](https://codecov.io/gh/abaxxtech/abaxx-vc-sdk/branch/main/graph/badge.svg?token=8SD0TO9Z9E)](https://codecov.io/gh/abaxxtech/abaxx-vc-sdk)
 
 # vc-sdk
 
@@ -25,9 +25,9 @@ For more information, see the [vision document](doc/VISION.md).
 # Contributing
 
 This project is fully open source, and we welcome contributions! For more information please see
-[CONTRIBUTING](https://github.com/d-protocol/vc-sdk/blob/main/CONTRIBUTING.md). Our current thinking about the
+[CONTRIBUTING](https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/CONTRIBUTING.md). Our current thinking about the
 development of the library is captured in
-[GitHub Issues](https://github.com/d-protocol/vc-sdk/issues).
+[GitHub Issues](https://github.com/abaxxtech/abaxx-vc-sdk/issues).
 
 # Specifications
 
@@ -87,7 +87,7 @@ Experimental methods must be explicitly enabled. For an example, [see this test]
 # Building
 
 This project uses [mage](https://magefile.org/), please
-view [CONTRIBUTING](https://github.com/d-protocol/vc-sdk/blob/main/CONTRIBUTING.md) for more information.
+view [CONTRIBUTING](https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/CONTRIBUTING.md) for more information.
 
 After installing mage, you can build and test the SDK with the following commands:
 
@@ -105,7 +105,7 @@ mage cbt
 # WASM
 The vc-sdk-wasm is a library that provides a WebAssembly (WASM) implementation for Self-Sovereign Identity (SSI) SDK. It enables SSI functionality in the browser and other JavaScript environments by compiling the SDK to a WASM file. This repository is responsible for building the main.wasm file and making it available as an npm package.
 
-The wasm implemetation for this repo lives here - https://github.com/d-protocol/vc-sdk-wasm
+The wasm implemetation for this repo lives here - https://github.com/abaxxtech/abaxx-vc-sdk-wasm
 # Versioning
 
 For information on versioning refer to our [versioning guide](doc/VERSIONING.md).
@@ -139,9 +139,9 @@ To run the examples use the following command
 
 | Resource                                                                               | Description                                                                   |
 |----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| [VISION](https://github.com/d-protocol/vc-sdk/blob/main/doc/VISION.md)               | Outlines the project vision                                                   |
-| [VERSIONING](https://github.com/d-protocol/vc-sdk/blob/main/doc/VERSIONING.md)       | Project versioning strategy                                                   |
-| [CODE_OF_CONDUCT](https://github.com/d-protocol/vc-sdk/blob/main/CODE_OF_CONDUCT.md) | Expected behavior for project contributors, promoting a welcoming environment |
-| [CONTRIBUTING](https://github.com/d-protocol/vc-sdk/blob/main/CONTRIBUTING.md)       | Developer guide to build, test, run, access CI, chat, discuss, file issues    |
-| [GOVERNANCE](https://github.com/d-protocol/vc-sdk/blob/main/GOVERNANCE.md)           | Project governance                                                            |
-| [LICENSE](https://github.com/d-protocol/vc-sdk/blob/main/LICENSE)                    | Apache License, Version 2.0                                                   |
+| [VISION](https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/doc/VISION.md)               | Outlines the project vision                                                   |
+| [VERSIONING](https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/doc/VERSIONING.md)       | Project versioning strategy                                                   |
+| [CODE_OF_CONDUCT](https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/CODE_OF_CONDUCT.md) | Expected behavior for project contributors, promoting a welcoming environment |
+| [CONTRIBUTING](https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/CONTRIBUTING.md)       | Developer guide to build, test, run, access CI, chat, discuss, file issues    |
+| [GOVERNANCE](https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/GOVERNANCE.md)           | Project governance                                                            |
+| [LICENSE](https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/LICENSE)                    | Apache License, Version 2.0                                                   |

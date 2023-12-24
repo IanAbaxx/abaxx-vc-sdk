@@ -7,7 +7,7 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/d-protocol/vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
 )
 
 func TestGenerateStatusList2021Credential(t *testing.T) {

@@ -3,7 +3,7 @@ package schema
 import (
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 	"github.com/jarcoal/httpmock"
 	"github.com/santhosh-tekuri/jsonschema/v5"
 	"github.com/stretchr/testify/assert"

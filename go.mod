@@ -1,4 +1,4 @@
-module github.com/d-protocol/vc-sdk
+module github.com/abaxxtech/abaxx-vc-sdk
 
 go 1.21
 

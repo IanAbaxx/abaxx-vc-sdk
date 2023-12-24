@@ -5,9 +5,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/d-protocol/vc-sdk/credential"
-	"github.com/d-protocol/vc-sdk/example"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/example"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 func main() {
@@ -38,7 +38,7 @@ func main() {
 	}
 
 	// For more information on VC object, go to:
-	// https://github.com/d-protocol/vc-sdk/blob/main/credential/model.go
+	// https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/credential/model.go
 	vc := credential.VerifiableCredential{
 		Context:           knownContext,
 		ID:                knownID,

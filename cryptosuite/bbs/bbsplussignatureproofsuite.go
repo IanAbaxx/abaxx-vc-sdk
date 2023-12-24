@@ -5,9 +5,9 @@ import (
 	"encoding/base64"
 	"strings"
 
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/cryptosuite"
-	. "github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite"
+	. "github.com/abaxxtech/abaxx-vc-sdk/util"
 	"github.com/goccy/go-json"
 	"github.com/pkg/errors"
 )

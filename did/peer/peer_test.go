@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/crypto"
-	"github.com/d-protocol/vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
 
 	"github.com/stretchr/testify/assert"
 )

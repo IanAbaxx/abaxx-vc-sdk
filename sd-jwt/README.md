@@ -1,7 +1,7 @@
-[![godoc vc-sdk](https://img.shields.io/badge/godoc-v--sdk-blue)](https://pkg.go.dev/github.com/d-protocol/vc-sdk/sd-jwt)
+[![godoc vc-sdk](https://img.shields.io/badge/godoc-v--sdk-blue)](https://pkg.go.dev/github.com/abaxxtech/abaxx-vc-sdk/sd-jwt)
 [![go version 1.21.4](https://img.shields.io/badge/go_version-1.21.4-brightgreen)](https://golang.org/)
-[![Go Report Card A+](https://goreportcard.com/badge/github.com/d-protocol/vc-sdk/sd-jwt)](https://goreportcard.com/report/github.com/d-protocol/vc-sdk/sd-jwt)
-[![license Apache 2](https://img.shields.io/badge/license-Apache%202-black)](https://github.com/d-protocol/vc-sdk/blob/main/LICENSE)
+[![Go Report Card A+](https://goreportcard.com/badge/github.com/abaxxtech/abaxx-vc-sdk/sd-jwt)](https://goreportcard.com/report/github.com/abaxxtech/abaxx-vc-sdk/sd-jwt)
+[![license Apache 2](https://img.shields.io/badge/license-Apache%202-black)](https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/LICENSE)
 
 # SD-JWT support in golang
 
@@ -23,7 +23,7 @@ verification from the holder or from the verifiers perspective.
 To install `sd-jwt`, use `go get`:
 
 ```bash
-go get github.com/d-protocol/vc-sdk/sd-jwt
+go get github.com/abaxxtech/abaxx-vc-sdk/sd-jwt
 ```
 
 ## Quick Start
@@ -33,7 +33,7 @@ You can run it by cloning this repo, changing directory into this directory, and
 See the terminal command below. 
 
 ```shell
-git clone github.com/d-protocol/vc-sdk.git
+git clone github.com/abaxxtech/abaxx-vc-sdk.git
 cd vc-sdk/sd-jwt
 go run example/main.go
 ```
@@ -42,7 +42,7 @@ go run example/main.go
 The best usage examples can be found in the [sd_jwt_test.go](sd_jwt_test.go) file.
 
 ## API Reference
-See our [official godocs](https://pkg.go.dev/github.com/d-protocol/vc-sdk/sd-jwt).
+See our [official godocs](https://pkg.go.dev/github.com/abaxxtech/abaxx-vc-sdk/sd-jwt).
 
 ## Configuration
 Configuration is done via dependency injection on the `SDJWTSigner` struct. 
@@ -60,4 +60,4 @@ See the [SDK Building](../README.md#building) section.
 See the general [CONTRIBUTING](../CONTRIBUTING.md) guide.
 
 ## Issues
-See current issues [here](https://github.com/d-protocol/vc-sdk/issues?q=is%3Aissue+is%3Aopen+label%3Asd-jwt). 
+See current issues [here](https://github.com/abaxxtech/abaxx-vc-sdk/issues?q=is%3Aissue+is%3Aopen+label%3Asd-jwt). 

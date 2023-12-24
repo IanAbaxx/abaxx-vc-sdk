@@ -3,8 +3,8 @@ package resolution
 import (
 	"reflect"
 
-	"github.com/d-protocol/vc-sdk/did"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 )
 
 // Result encapsulates the tuple of a DID resolution https://www.w3.org/TR/did-core/#did-resolution

@@ -4,16 +4,16 @@ import (
 	"context"
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/credential/integrity"
-	"github.com/d-protocol/vc-sdk/cryptosuite/jws2020"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/integrity"
+	"github.com/abaxxtech/abaxx-vc-sdk/cryptosuite/jws2020"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/did/key"
-	"github.com/d-protocol/vc-sdk/did/resolution"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/key"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/resolution"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 
-	"github.com/d-protocol/vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
 )
 
 func TestVerifyPresentationSubmission(t *testing.T) {

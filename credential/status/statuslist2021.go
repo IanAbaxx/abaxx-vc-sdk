@@ -11,9 +11,9 @@ import (
 
 	"github.com/goccy/go-json"
 
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 	"github.com/bits-and-blooms/bitset"
-	"github.com/d-protocol/vc-sdk/credential"
-	"github.com/d-protocol/vc-sdk/util"
 	"github.com/pkg/errors"
 )
 

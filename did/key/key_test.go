@@ -17,10 +17,10 @@ import (
 
 	"github.com/multiformats/go-varint"
 
-	"github.com/d-protocol/vc-sdk/did"
-	"github.com/d-protocol/vc-sdk/did/resolution"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/resolution"
 
-	"github.com/d-protocol/vc-sdk/crypto"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto"
 
 	"github.com/stretchr/testify/assert"
 )

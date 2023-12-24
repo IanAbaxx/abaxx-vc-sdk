@@ -38,8 +38,8 @@ GC) votes to approve the change despite the opposition. Usually, involving the G
 
 See:
 
-* [List of maintainers - `CODEOWNERS`](https://github.com/d-protocol/vc-sdk/blob/main/CODEOWNERS)
-* [Contribution Guide - `CONTRIBUTING.md`](https://github.com/d-protocol/vc-sdk/blob/main/CONTRIBUTING.md)
+* [List of maintainers - `CODEOWNERS`](https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/CODEOWNERS)
+* [Contribution Guide - `CONTRIBUTING.md`](https://github.com/abaxxtech/abaxx-vc-sdk/blob/main/CONTRIBUTING.md)
 
 ### Maintainer activities
 

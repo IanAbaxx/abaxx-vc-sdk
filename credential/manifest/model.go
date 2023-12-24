@@ -3,9 +3,9 @@ package manifest
 import (
 	"reflect"
 
-	"github.com/d-protocol/vc-sdk/credential/exchange"
-	"github.com/d-protocol/vc-sdk/credential/rendering"
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/exchange"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/rendering"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 	"github.com/pkg/errors"
 )
 

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/credential"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential"
 	"github.com/goccy/go-json"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

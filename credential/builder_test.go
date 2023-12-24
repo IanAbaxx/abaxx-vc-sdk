@@ -3,7 +3,7 @@ package credential
 import (
 	"testing"
 
-	"github.com/d-protocol/vc-sdk/util"
+	"github.com/abaxxtech/abaxx-vc-sdk/util"
 
 	"github.com/stretchr/testify/assert"
 )

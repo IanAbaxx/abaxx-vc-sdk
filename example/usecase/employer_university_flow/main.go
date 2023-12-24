@@ -54,17 +54,17 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/d-protocol/vc-sdk/credential/integrity"
+	"github.com/abaxxtech/abaxx-vc-sdk/credential/integrity"
 	"github.com/goccy/go-json"
 	"github.com/sirupsen/logrus"
 
-	"github.com/d-protocol/vc-sdk/crypto/jwx"
-	"github.com/d-protocol/vc-sdk/did"
-	"github.com/d-protocol/vc-sdk/did/key"
-	"github.com/d-protocol/vc-sdk/did/peer"
-	"github.com/d-protocol/vc-sdk/did/resolution"
-	"github.com/d-protocol/vc-sdk/example"
-	emp "github.com/d-protocol/vc-sdk/example/usecase/employer_university_flow/pkg"
+	"github.com/abaxxtech/abaxx-vc-sdk/crypto/jwx"
+	"github.com/abaxxtech/abaxx-vc-sdk/did"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/key"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/peer"
+	"github.com/abaxxtech/abaxx-vc-sdk/did/resolution"
+	"github.com/abaxxtech/abaxx-vc-sdk/example"
+	emp "github.com/abaxxtech/abaxx-vc-sdk/example/usecase/employer_university_flow/pkg"
 )
 
 // Set to debug mode here
