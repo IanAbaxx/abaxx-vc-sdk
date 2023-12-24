@@ -3,11 +3,11 @@
 
 // We assume there are two parties:
 //	1 . Alice, using a wallet, applying for a credential
-//	2. An issuer via the SSI Service, processing credential applications and issuing credentials
+//	2. An issuer via the VC Service, processing credential applications and issuing credentials
 
-// Each party has a single DID. Alice and the SSI Service each have a single did:key DID.
+// Each party has a single DID. Alice and the VC Service each have a single did:key DID.
 // Alice stores her DID’s private key in her wallet.
-// The SSI Service stores its private key in the service key store database.
+// The VC Service stores its private key in the service key store database.
 
 package main
 
@@ -130,7 +130,7 @@ func (t *Entity) ProcessCredentialApplication(issuer string, subject string) (*m
 	}
 
 	/**
-		 The SSI Service creates a Credential Response, CR, signed with didI
+		 The VC Service creates a Credential Response, CR, signed with didI
 	**/
 
 	var descriptors []exchange.SubmissionDescriptor
@@ -171,7 +171,7 @@ func main() {
 	aliceWalletEntity.GenerateWallet()
 
 	/**
-		Step 2: The issuer creates a DID, stored in the SSI Service, didI
+		Step 2: The issuer creates a DID, stored in the VC Service, didI
 	**/
 	issuerWalletEntity := new(Entity)
 	issuerWalletEntity.GenerateWallet()
@@ -199,7 +199,7 @@ func main() {
 	aliceWalletEntity.SignCredentialApplication()
 
 	/**
-		Step 6: Alice submits `Credential Application` to the SSI Service. The SSI Service processes `Credential Application`...
+		Step 6: Alice submits `Credential Application` to the VC Service. The VC Service processes `Credential Application`...
 			* Validates the signature using `didW`
 			* Verifies it is a valid and well-formed Credential Application
 			* Validates it complies with `CM`
@@ -210,7 +210,7 @@ func main() {
 	}
 
 	/**
-		Step 7: The SSI Service creates Verifiable Credentials signed with `didI`. The SSI Service creates a
+		Step 7: The VC Service creates Verifiable Credentials signed with `didI`. The VC Service creates a
 		Credential Response signed with `didI`
 	**/
 	credentialResponse, verifiableCredentials := issuerWalletEntity.ProcessCredentialApplication(issuerWalletEntity.didKey.String(), aliceWalletEntity.didKey.String())

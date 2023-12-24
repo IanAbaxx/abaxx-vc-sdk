@@ -36,7 +36,6 @@ type PresentationRequestOption struct {
 
 // BuildPresentationRequest https://identity.foundation/presentation-exchange/#presentation-request
 // used for transmitting a Presentation Definition from a holder to a verifier. Target is who the request is intended for.
-// TODO(gabe) expand to other presentation types and signers https://github.com/d-protocol/vc-sdk/issues/57
 func BuildPresentationRequest(signer any, pt PresentationRequestType, def PresentationDefinition, opts ...PresentationRequestOption) ([]byte, error) {
 	if signer == nil {
 		return nil, fmt.Errorf("cannot build presentation request with nil signer")

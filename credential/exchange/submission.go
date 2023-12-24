@@ -345,7 +345,6 @@ func processInputDescriptor(id InputDescriptor, claims []NormalizedClaim) (*proc
 	fieldsToProcess := len(fields)
 	disclosure := constraints.LimitDisclosure
 	if disclosure != nil && *disclosure == Required {
-		// TODO(gabe) enable limiting disclosure for ZKP/SD creds https://github.com/d-protocol/vc-sdk/issues/354
 		// otherwise, we won't be able to send back a claim with a signature attached
 		return nil, errors.New("requiring limit disclosure is not supported")
 	}
@@ -477,7 +476,6 @@ func processInputDescriptorField(field Field, claimData map[string]any) (*limite
 	return nil, false
 }
 
-// TODO(gabe) https://github.com/d-protocol/vc-sdk/issues/56
 // check for certain features we may not support yet: submission requirements, predicates, relational constraints,
 // credential status, JSON-LD framing from https://identity.foundation/presentation-exchange/#features
 func canProcessDefinition(def PresentationDefinition) error {

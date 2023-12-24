@@ -37,7 +37,6 @@ type VerifiedSubmissionData struct {
 // the DID and keys of the signer for each credential in the presentation, whose signatures also need to be verified.
 // Note: this method does not support LD cryptosuites, and prefers JWT representations. Future refactors
 // may include an analog method for LD suites.
-// TODO(gabe) remove embed target, have it detected from the submission
 func VerifyPresentationSubmission(ctx context.Context, verifier any, resolver resolution.Resolver, et EmbedTarget, def PresentationDefinition, submission []byte) ([]VerifiedSubmissionData, error) { //revive:disable-line
 	if resolver == nil {
 		return nil, errors.New("resolution cannot be empty")
@@ -124,7 +123,6 @@ func VerifyPresentationSubmissionVP(def PresentationDefinition, vp credential.Ve
 				strings.Join(inputDescriptor.Format.FormatValues(), ", "))
 		}
 
-		// TODO(gabe) support nested paths in presentation submissions https://github.com/d-protocol/vc-sdk/issues/73
 		if submissionDescriptor.PathNested != nil {
 			return nil, fmt.Errorf("submission with nested paths not supported: %s", submissionDescriptor.ID)
 		}
@@ -150,7 +148,6 @@ func VerifyPresentationSubmissionVP(def PresentationDefinition, vp credential.Ve
 			continue
 		}
 
-		// TODO(gabe) consider enforcing limited disclosure if present
 		// for each field we need to verify at least one path matches
 		credJSON, err := parsing.ToCredentialJSONMap(claim)
 		if err != nil {
@@ -199,8 +196,6 @@ func VerifyPresentationSubmissionVP(def PresentationDefinition, vp credential.Ve
 		// data to the value being returned
 		verifiedSubmissionData = append(verifiedSubmissionData, verifiedSubmissionDatum)
 
-		// TODO(gabe) is_holder and same_subject cannot yet be implemented https://github.com/d-protocol/vc-sdk/issues/64
-		// TODO(gabe) check credential status https://github.com/d-protocol/vc-sdk/issues/65
 	}
 	return verifiedSubmissionData, nil
 }

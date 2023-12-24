@@ -402,7 +402,6 @@ func TestProcessInputDescriptor(t *testing.T) {
 		assert.Equal(tt, "test-verifiable-credential", vc.ID)
 	})
 
-	// TODO(gabe): update with https://github.com/d-protocol/vc-sdk/issues/354
 	t.Run("Simple Descriptor with One VC Claim and Limited Disclosure", func(tt *testing.T) {
 		id := InputDescriptor{
 			ID: "id-1",

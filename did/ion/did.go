@@ -241,7 +241,6 @@ func removePublicKeysPatch(doc did.Document, patch RemovePublicKeysAction) (*did
 			doc.VerificationMethod = append(doc.VerificationMethod[:i], doc.VerificationMethod[i+1:]...)
 			removed = true
 
-			// TODO(gabe): in the future handle the case where the value is not a simple ID
 			// remove from all other key lists
 			for j, a := range doc.Authentication {
 				if a == id {

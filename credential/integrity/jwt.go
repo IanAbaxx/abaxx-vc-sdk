@@ -108,8 +108,6 @@ func JWTClaimSetFromVC(cred credential.VerifiableCredential) (jwt.Token, error) 
 
 // VerifyVerifiableCredentialJWT verifies the signature validity on the token and parses
 // the token in a verifiable credential.
-// TODO(gabe) modify this to add additional validation steps such as credential status, expiration, etc.
-// related to https://github.com/d-protocol/ssi-service/issues/122
 func VerifyVerifiableCredentialJWT(verifier jwx.Verifier, token string) (jws.Headers, jwt.Token, *credential.VerifiableCredential, error) {
 	if err := verifier.Verify(token); err != nil {
 		return nil, nil, nil, errors.Wrap(err, "verifying JWT")

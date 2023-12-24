@@ -20,7 +20,6 @@ const (
 )
 
 // Document is a representation of the did core specification https://www.w3.org/TR/did-core
-// TODO(gabe) enforce validation of DID syntax https://www.w3.org/TR/did-core/#did-syntax
 type Document struct {
 	Context any `json:"@context,omitempty"`
 	// As per https://www.w3.org/TR/did-core/#did-subject intermediate representations of DID Documents do not
@@ -53,7 +52,6 @@ type VerificationMethod struct {
 // VerificationMethodSet is a union type supporting the `authentication`, `assertionMethod`, `keyAgreement`,
 // `capabilityInvocation`, and `capabilityDelegation` types.
 // A set of one or more verification methods. Each verification method MAY be embedded or referenced.
-// TODO(gabe) consider changing this to a custom unmarshaler https://stackoverflow.com/a/28016508
 type VerificationMethodSet any
 
 // Service is a property compliant with the did-core spec https://www.w3.org/TR/did-core/#services

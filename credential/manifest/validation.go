@@ -159,8 +159,6 @@ func IsValidCredentialApplicationForManifest(cm CredentialManifest, applicationA
 			continue
 		}
 
-		// TODO(gabe) support nested paths in presentation submissions
-		// https://github.com/d-protocol/vc-sdk/issues/73
 		if submissionDescriptor.PathNested != nil {
 			errMsg := fmt.Sprintf("submission with nested paths not supported: %s", submissionDescriptor.ID)
 			unfulfilledInputDescriptors[inputDescriptor.ID] = errMsg
@@ -194,7 +192,6 @@ func IsValidCredentialApplicationForManifest(cm CredentialManifest, applicationA
 			continue
 		}
 
-		// TODO(gabe) consider enforcing limited disclosure if present
 		// for each field we need to verify at least one path matches
 		credJSON, err := credutil.ToCredentialJSONMap(submittedClaim)
 		if err != nil {
@@ -227,5 +224,3 @@ func findMatchingPath(claim any, paths []string) error {
 	}
 	return errors.New("matching path for claim could not be found")
 }
-
-// TODO(gabe) support multiple embed targets https://github.com/d-protocol/vc-sdk/issues/57

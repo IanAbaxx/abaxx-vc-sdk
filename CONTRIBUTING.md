@@ -1,6 +1,6 @@
 # Contribution Guide
 
-This repo acts as a one-stop, opinionated toolkit for all things Self Sovereign Identity (SSI). Before contributing, we recommend that you review the [README](README.md), dig into some of the specifications it mentions, take a look at recent PRs, and issues. The SDK is intended to be used in any go project. Our [SSI Service](github.com/d-protocol/ssi-service) makes use of the SDK for much of its core functionality.
+This repo acts as a one-stop, opinionated toolkit for all things Self Sovereign Identity (SSI). Before contributing, we recommend that you review the [README](README.md), dig into some of the specifications it mentions, take a look at recent PRs, and issues. The SDK is intended to be used in any go project. Our [VC Service](github.com/d-protocol/vc-service) makes use of the SDK for much of its core functionality.
 
 When you're ready you may:
 * Propose ideas in our SSI [discord](https://discord.com/channels/937858703112155166/969272692891086868) channel
@@ -119,7 +119,6 @@ We suggest the following process when picking up an issue:
  * You may also choose to paste a link to the PR in the original issue.
 
 If you don't see an issue for what you would like to work on, have an idea for a new features found a bug, or have a question...
-* Start by proposing a change either in [GitHub Issues](https://github.com/d-protocol/vc-sdk/issues) or on our Discord in the `#ssi` channel
 * Fork the repo into your own namespace/remote
 * Work in a dedicated feature branch. Atlassian wrote a
   great [description of this workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)

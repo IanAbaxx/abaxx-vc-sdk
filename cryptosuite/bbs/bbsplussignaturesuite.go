@@ -57,7 +57,6 @@ func (BBSPlusSignatureSuite) RequiredContexts() []string {
 
 func (b BBSPlusSignatureSuite) Sign(s cryptosuite.Signer, p cryptosuite.WithEmbeddedProof) error {
 	// create proof before running the create verify hash algorithm
-	// TODO(gabe) support required reveal values
 	proof := b.createProof(s.GetKeyID(), s.GetProofPurpose(), nil)
 
 	// prepare proof options

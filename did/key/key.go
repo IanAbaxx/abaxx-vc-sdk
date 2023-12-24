@@ -188,8 +188,6 @@ func (d DIDKey) Decode() ([]byte, crypto.KeyType, error) {
 // Accepts the following options:
 //   - EnableEncryptionKeyDerivationOption (default to true)
 //   - PublicKeyFormatOption (defaults to JWK)
-//
-// TODO(gabe) support BLS curves https://github.com/d-protocol/vc-sdk/issues/381
 func (d DIDKey) Expand(opts ...Option) (*did.Document, error) {
 	publicKeyFormat, enableEncryptionDerivation, err := processExpansionOptions(opts...)
 	if err != nil {

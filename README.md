@@ -1,4 +1,4 @@
-[![godoc vc-sdk](https://img.shields.io/badge/godoc-ssi--sdk-blue)](https://pkg.go.dev/github.com/d-protocol/vc-sdk)
+[![godoc vc-sdk](https://img.shields.io/badge/godoc-vc--sdk-blue)](https://pkg.go.dev/github.com/d-protocol/vc-sdk)
 [![go version 1.21.4](https://img.shields.io/badge/go_version-1.21.4-brightgreen)](https://golang.org/)
 [![Go Report Card A+](https://goreportcard.com/badge/github.com/d-protocol/vc-sdk)](https://goreportcard.com/report/github.com/d-protocol/vc-sdk)
 [![license Apache 2](https://img.shields.io/badge/license-Apache%202-black)](https://github.com/d-protocol/vc-sdk/blob/main/LICENSE)
