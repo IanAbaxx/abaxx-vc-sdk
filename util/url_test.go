@@ -18,11 +18,11 @@ func TestURL_MarshalJSON(t *testing.T) {
 }
 
 func TestURL_UnmarshalJSON(t *testing.T) {
-	data := []byte(`"web5://abaxx.id"`)
+	data := []byte(`"dwn://abaxx.id"`)
 	var u URL
 
 	assert.NoError(t, u.UnmarshalJSON(data))
 
-	expected := URL{url.URL{Scheme: "web5", Host: "abaxx.id"}}
+	expected := URL{url.URL{Scheme: "dwn", Host: "abaxx.id"}}
 	assert.Equal(t, expected, u)
 }
