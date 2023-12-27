@@ -133,9 +133,7 @@ func (DIDPeer) Delta(_ DIDPeer) (*PeerDelta, error) {
 	return nil, errors.Wrap(util.NotImplementedError, "peer:did delta")
 }
 
-// TODO: CRDT https://github.com/abaxxtech/abaxx-vc-sdk/issues/138
 // https://identity.foundation/peer-did-method-spec/#crdts
-
 // Generates the key by types
 func (DIDPeer) generateKeyByType(kt crypto.KeyType) (gocrypto.PublicKey, gocrypto.PrivateKey, error) {
 	if !IsSupportedDIDPeerType(kt) {

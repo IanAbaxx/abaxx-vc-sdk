@@ -23,8 +23,6 @@ const (
 	NonceProperty string = "nonce"
 )
 
-// SignVerifiableCredentialJWT is prepared according to https://w3c.github.io/vc-jwt/#version-1.1
-// which will soon be deprecated by https://w3c.github.io/vc-jwt/ see: https://github.com/abaxxtech/abaxx-vc-sdk/issues/191
 func SignVerifiableCredentialJWT(signer jwx.Signer, cred credential.VerifiableCredential) ([]byte, error) {
 	if cred.IsEmpty() {
 		return nil, errors.New("credential cannot be empty")
