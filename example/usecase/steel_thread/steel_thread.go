@@ -119,7 +119,6 @@ func (t *Entity) ValidateVerifiableCredentials() error {
 func (t *Entity) ProcessCredentialApplication(issuer string, subject string) (*manifest.CredentialResponse, []credential.VerifiableCredential) {
 	var creds []credential.VerifiableCredential
 	for i := 0; i < len(t.credentialManifest.OutputDescriptors); i++ {
-		// TODO: Create Cred off of OD
 		creds = append(creds, createVerifiableCredential(issuer, subject))
 	}
 

@@ -13,7 +13,6 @@ func TestPeerMethod0(t *testing.T) {
 	var m0 Method0
 	kt := crypto.Ed25519
 
-	// TODO: Add known key so reproducible results
 	pubKey, _, err := crypto.GenerateKeyByKeyType(kt)
 	assert.NoError(t, err)
 
