@@ -65,7 +65,7 @@ The current GC members are:
 * Josh Crumb, CEO, Abaxx Technologies
 * John Dutchak, Head of Engineering, Abaxx Technologies
 * Ian Forester, Head of Product, Abaxx Technologies
-* Ryan Rawson, Principal Engineer, Abaxx Technologies
+* Jeff Lipton, General Counsel, Abaxx Technologies
 * Carrie Jaquith, Global Head of Digital Product, Abaxx Technologies
 
 Members are not to be contacted individually.
