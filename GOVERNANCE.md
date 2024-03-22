@@ -62,11 +62,11 @@ The ID++ Open Source Governance Committee (GC) has final authority over this pro
 
 The current GC members are:
 
-* Angie Jones, Head of Developer Relations, ID++
-* Julie Kim, Head of Legal, ID++
-* Nidhi Nahar, Head of Patents and Open Source, Block
-* Andrew Lee Rubinger, Head of Open Source, ID++
-* Max Sills, Counsel for Intellectual Property, Block
+* John Dutchak, Head of Engineering, Abaxx Technologies
+* Ian Forester, Head of Product, Abaxx Technologies
+* Ryan Rawson, Principal Architect, Abaxx Technologies
+* Carrie Jaquith, Global Head of Digital Product, Abaxx Technologies
+* Jeserie Golo, Senior Developer, Abaxx Technologies
 
 Members are not to be contacted individually.
 and is an available resource in mediation or for sensitive cases beyond the scope of project maintainers. It operates as
